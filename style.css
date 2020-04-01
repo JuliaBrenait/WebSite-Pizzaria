@@ -1,0 +1,52 @@
+body{
+    margin-left: 50px;
+
+}
+/*HEADER*/
+header a{
+    color: rgb(255, 1, 1);
+    font-weight: bold;
+}
+header a:hover{
+    text-decoration: none;
+    color: rgb(201, 188, 16);
+}
+
+/*BODY*/
+
+/*PAGE 1*/
+#ambiente span{
+    color:rgb(255, 1, 1) ;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #404756; 
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 1031px ){
+     .link-header {
+       display:contents ;
+    }
+}
+@media screen and (min-width:1042px){
+    .link-header{
+        display:initial ;
+    }
+}
+@media screen and (max-width:703px){
+    .link-header{
+        display: block;
+    }
+}
+@media screen and (max-width: 902px){
+    #cardapio{
+        display: grid;
+    }
+}
+@media screen and (max-width: 935px){
+    #social{
+        display: contents;
+    }
+}
